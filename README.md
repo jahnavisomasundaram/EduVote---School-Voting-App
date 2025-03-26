@@ -30,7 +30,8 @@ Deployment: Hosted on a cloud-based platform
 
 <h3>Installation & Setup:</h3>
 
-<h4>Clone the repository:</h4>git clone https://github.com/your-username/eduvote.git
+<h4>Clone the repository:</h4>
+git clone https://github.com/your-username/eduvote.git 
 
 cd eduvote
 
