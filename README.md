@@ -27,3 +27,17 @@ Database: MongoDB
 Authentication: JWT for secure login and voting sessions
 
 Deployment: Hosted on a cloud-based platform
+
+<h3>Installation & Setup</h3>
+
+Clone the repository:
+git clone https://github.com/your-username/eduvote.git
+cd eduvote
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm start
+
+Access the application at http://localhost:3000/
