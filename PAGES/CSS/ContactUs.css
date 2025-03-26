@@ -1,0 +1,106 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'The Seasons';
+    background-color: #f7eed3;
+    color: #603f26;
+}
+
+.header {
+    padding: 10px 30px; 
+    background-color: #563D2E;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    font-size: 20px;
+}
+
+.search-bar {
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 400px;
+    background-color: #f7eed3;
+}
+
+.clear-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #888;
+    display: none;
+}
+
+.clear-icon.visible {
+    display: inline-block;
+}
+
+.links {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.links a {
+    margin: 0 40px; /* Reduced margin for more space */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f7eed3;
+    text-decoration: none;   
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.logo {
+    margin-left: 20px; /* Space the logo to avoid overlapping with nav */
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Horizontally centers the images */
+    align-items: center;    /* Vertically centers the images */
+    gap: 45px; /* Adds space between the images */
+    margin-top: 50px;
+}
+
+.social-icons img {
+    width: 100px;
+    cursor: pointer;
+}

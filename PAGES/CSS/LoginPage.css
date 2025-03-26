@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+    background-color: #f7eed3;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'The Seasons', serif;
+}
+
+/* Main container */
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Left Section */
+.left-section {
+    background-color: #f7eed3;
+    flex: 3; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.left-section h1 {
+    color:#603f26;
+    font-size: 110px;
+    font-weight: bold;
+    text-Shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.left-section img {
+    margin-top: 20px;
+    width: 420px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+/* Right Section*/
+.right-section {
+    background-color: #603f26;
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-section {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section h3 {
+    color:#f7eed3;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.login-section label {
+    display: block;
+    color: #f7eed3;
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 18px;
+    border: none;
+    font-size: 1rem;
+    background-color: #f7eed3;
+   
+}
+
+.login-section a {
+    text-decoration: none; 
+    color: #f7eed3; 
+    font-size: 18px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.login-section a:hover,
+.login-section a:focus {
+    text-decoration: underline; 
+}
+
+
+.login-section button {
+    border-radius: 18px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #f7eed3;
+    color: #603f26;
+    cursor: pointer;
+    border: none;
+}

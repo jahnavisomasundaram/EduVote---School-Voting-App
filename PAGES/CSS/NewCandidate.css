@@ -1,0 +1,111 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'The Seasons';
+    background-color: #603f26;
+    color: #f7eed3;
+}
+
+.header {
+    padding: 10px 30px; 
+    background-color: #563D2E;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.links a {
+    margin: 0 40px; /* Reduced margin for more space */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f7eed3;
+    text-decoration: none;  
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin-left: 20px; /* Space the logo to avoid overlapping with nav */
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* Main content */
+.content {
+    text-align: center;
+    margin-top: 50px;
+} 
+
+.content1 {
+    text-align: left;
+    margin-left: 150px;
+} 
+
+h1 {
+    font-size: 60px;
+    margin-top: 50px;
+}
+.category-select {
+    font-family: 'The Seasons';
+    font-size: 10px;
+    background-color: #f7eed3;
+    color: #603f26;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 130px;
+    margin-left:50px !important;
+}
+
+.next-button {
+    padding: 10px 20px;
+    font-family: 'The Seasons';
+    font-size: 25px;
+    background-color: #603f26;
+    color: #f7eed3;
+    border: none;
+    border-radius: 8px;
+}
+
+.content1 input{
+    border-radius: 18px;
+    width: 400px;
+    height: 25px;
+    background-color:#f7eed3;
+    margin-left: 50px;
+} 
+
+.content1 input[type="radio"] {
+    margin-right: 10px; 
+    margin-left: 5px;  
+}
+
+.content1 label{
+    color:#603f26;
+    font-size: 26px;
+    font-family: 'The Seasons', serif;  
+}
+
+.subcategory-label {
+    display: block;
+    margin-bottom: 0px; 
+}
+
+.subcategory-select {
+    border-radius: 18px;
+    width: 400px;
+    height: 25px;
+    background-color:#f7eed3;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}

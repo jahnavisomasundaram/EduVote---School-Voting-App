@@ -1,0 +1,67 @@
+/* Header and Navigation */
+.header {
+    padding: 10px 30px;
+    background-color: #563D2E;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.links a {
+    margin: 0 20px;
+    font-size: 18px;
+    color: #f7eed3;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content h2{
+    font-size: 30px;
+    color:#603f26;
+    margin-top: 50px;
+    margin-left: -55px;
+    margin-bottom: 45px;
+
+}
+
+.category-select{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #603f26;
+    color: #f7eed3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.select-container {
+    margin-bottom: 10px; /* Add spacing between the select and the button */
+}
+
+.next-button {
+    padding: 10px 20px;
+    font-family: 'The Seasons';
+    font-size: 25px;
+    background-color: #f7eed3;
+    color: #603f26;
+    border: none;
+    border-radius: 8px;
+    margin-top: 0; /* Reset margin */
+}
+
+
