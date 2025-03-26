@@ -42,3 +42,16 @@ npm install
 npm start
 
 Access the application at http://localhost:3000/
+
+
+<h3>Usage</h3>
+
+Register or log in to your account.
+
+Select a voting category.
+
+Cast your vote.
+
+View real-time results and analytics.
+
+Participate in interactive quizzes while waiting for results.
