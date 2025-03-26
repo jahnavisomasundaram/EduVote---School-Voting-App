@@ -2,7 +2,7 @@
 
 Eduvote is an interactive voting platform designed for educational institutions. It allows students and faculty members to participate in various elections, such as selecting school heads, student representatives, and other leadership roles. The platform ensures a fair and engaging voting experience.
 
-<h3>Features:</h3>
+<h3><ins>Features:</ins></h3>
 
 User-Friendly Interface: A simple and intuitive homepage where users can select different voting categories.
 
@@ -14,7 +14,7 @@ Real-Time Updates: View live voting results as votes are cast.
 
 Engaging Animations & Quizzes: Encourages users to stay engaged through fun quizzes and interactive elements.
 
-<h3>Tech Stack:</h3>
+<h3><ins>Tech Stack:</ins></h3>
 
 Eduvote is built using modern web technologies:
 
@@ -28,7 +28,7 @@ Authentication: JWT for secure login and voting sessions
 
 Deployment: Hosted on a cloud-based platform
 
-<h3>Installation & Setup:</h3>
+<h3><ins>Installation & Setup:</ins></h3>
 
 <h4>Clone the repository:</h4>
 git clone https://github.com/your-username/eduvote.git 
@@ -44,7 +44,7 @@ npm start
 Access the application at http://localhost:3000/
 
 
-<h3><u>Usage:</u></h3>
+<h3><ins>Usage:</ins></h3>
 
 Register or log in to your account.
 
