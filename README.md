@@ -44,7 +44,7 @@ npm start
 Access the application at http://localhost:3000/
 
 
-<h3>Usage</h3>
+<h3><u>Usage:</u></h3>
 
 Register or log in to your account.
 
