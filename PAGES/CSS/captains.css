@@ -1,0 +1,141 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'The Seasons';
+    background-color: #f7eed3;
+    color:#603f26;
+}
+
+.header {
+    padding: 10px 30px; 
+    background-color: #563D2E;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    font-size: 20px;
+}
+
+.search-bar {
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 400px;
+    background-color: #f7eed3;
+}
+
+.clear-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #888;
+    display: none;
+}
+
+.clear-icon.visible {
+    display: inline-block;
+}
+
+.links {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.links a {
+    margin: 0 40px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #f7eed3;
+    text-decoration: none;   
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin-left: 20px; /* Space the logo to avoid overlapping with nav */
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* Main content */
+.content {
+    margin-top: 50px;
+} 
+
+h1 {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px !important;
+}
+
+.category-select {
+    padding: 10px;
+    font-family: 'The Seasons';
+    font-size: 27px;
+    background-color: #f7eed3;
+    color: #603f26;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.next-button {
+    padding: 10px 20px;
+    font-family: 'The Seasons';
+    font-size: 25px;
+    background-color: #f7eed3;
+    color: #603f26;
+    border: none;
+    border-radius: 8px;
+}
+
+.candidates-list {
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 16px; /* Add space between cards */
+    justify-content: center; /* Center align the list */
+}
+
+.candidate-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px; /* Set a fixed width for cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.candidate-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.candidate-card.selected {
+    border: 2px solid #007bff; /* Highlight selected candidate */
+}
