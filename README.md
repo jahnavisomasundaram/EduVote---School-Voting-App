@@ -1,4 +1,4 @@
-<ins>Eduvote</ins>
+<h1><ins>Eduvote</ins></h1>
 
 Eduvote is an interactive voting platform designed for educational institutions. It allows students and faculty members to participate in various elections, such as selecting school heads, student representatives, and other leadership roles. The platform ensures a fair and engaging voting experience.
 
