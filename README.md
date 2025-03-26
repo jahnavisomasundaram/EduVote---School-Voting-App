@@ -30,18 +30,14 @@ Deployment: Hosted on a cloud-based platform
 
 <h3>Installation & Setup:</h3>
 
-Clone the repository:
-
-git clone https://github.com/your-username/eduvote.git
+<h4>Clone the repository:</h4>git clone https://github.com/your-username/eduvote.git
 
 cd eduvote
 
-Install dependencies:
-
+<h4>Install dependencies:</h4>
 npm install
 
-Start the development server:
-
+<h4>Start the development server:</h4>
 npm start
 
 Access the application at http://localhost:3000/
